@@ -12,6 +12,7 @@
     }
     &-left{
         left:0;
+        background-color: #ccc;
         &-item{
             width: 250px ;
             margin:20px auto;
@@ -46,7 +47,8 @@
         }
     }
     &-right{
-        right:0
+        right:0;
+        background-color: #ccc;
     }
     &-top{
         position: absolute;
@@ -80,8 +82,9 @@
             overflow: scroll;
             height:100%;
             &__content{
-                margin:20px auto;
-                background:yellow;
+                width: 100%;
+                height: 100%;
+                background:#b5d8d0;
                 position: relative;
             }
         }

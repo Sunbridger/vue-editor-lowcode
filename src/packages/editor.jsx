@@ -79,7 +79,7 @@ export default defineComponent({
                     {/* 产生内容区域 */}
                     <div
                         class="editor-container-canvas__content"
-                        style={containerStyles.value}
+                        // style={containerStyles.value}
                         ref={containerRef}
                         onMousedown={containerMousedown}
 
